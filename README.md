@@ -31,10 +31,20 @@ If you want to develop this program, follow the instructions below.
 git clone https://github.com/Alkanoidwastaken/datation-2.git
 ```
 ### 2: Install dependencies
+##### Windows:
+```
+python setup.py
+```
+##### UNIX (Mac/Linux):
 ```
 python3 setup.py
 ```
 ### 3: Run the program
+##### Windows:
+```
+python main.py
+```
+##### UNIX (Mac/Linux):
 ```
 python3 main.py
 ```
@@ -42,6 +52,11 @@ python3 main.py
 
 ## Manual Compilation
 ### Run compile.py
+##### Windows:
+```
+python compile.py
+```
+##### UNIX (Mac/Linux):
 ```
 python3 compile.py
 ```
@@ -50,4 +65,6 @@ python3 compile.py
 > For example: If you compiled it on a x86_64 Windows machine, it will only run on other x86_64 Windows machines.
 
 
-- By Alkanoid
+```
+By Alkanoid
+```
