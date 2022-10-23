@@ -1,4 +1,5 @@
-# Datation 2 ![GitHub](https://img.shields.io/github/license/alkanoidwastaken/datation-2?style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/alkanoidwastaken/datation-2/total?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues-raw/alkanoidwastaken/datation-2?style=for-the-badge)
+# Datation 2
+![GitHub](https://img.shields.io/github/license/alkanoidwastaken/datation-2?style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/alkanoidwastaken/datation-2/total?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues-raw/alkanoidwastaken/datation-2?style=for-the-badge)
 ###### A Python Calculator giving you calculations from your data, and making graphs.
 
 Datation 2 takes a dataset, does calculations that give you the number of score, mean, median, mode, range, variance, low median and high median.
