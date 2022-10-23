@@ -1,4 +1,3 @@
-import PyInstaller.__main__
 import pip
 
 def import_or_install(package):
