@@ -10,10 +10,12 @@ This is a simple program that can be customized for different calculations and g
 ## Executables
 Prebuilt binaries are available:
 
-[![Universal Installer][universal-badge]][universal-link]
+[![Windows Installer][windows-badge]][windows-link] [![Mac Installer][mac-badge]][mac-link]
 
-[universal-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0.1/main
-[universal-badge]: https://img.shields.io/badge/Universal%20-Download-3a71c1?logo=Python&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
+[windows-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0.0/windows-x86_64.exe
+[windows-badge]: https://img.shields.io/badge/Windows%20-Download-3a71c1?logo=Windows&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
+[mac-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0.0/macos-arm
+[mac-badge]: https://img.shields.io/badge/macOS%20%20-Download-3a71c1?logo=Apple&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
 
 
 ## Manual Usage
@@ -49,20 +51,18 @@ python3 main.py
 > This is the program. You can compile it using the steps below.
 
 ## Manual Compilation
-### 1: Install cpython
+### Run compile.py
+##### Windows:
 ```
-sudo -H pip3 install cython
+python compile.py
 ```
-### 2: Generate a C file
+##### UNIX (Mac/Linux):
 ```
-cython main.py --embed
+python3 compile.py
 ```
-### 3: Compile
-```
-PYTHONLIBVER=python$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')$(python3-config --abiflags)
-gcc -Os $(python3-config --includes) main.c -o main $(python3-config --ldflags) -l$PYTHONLIBVER
-```
-> The program will now compile into a file named main (executable)
+> The program will now compile into a folder name dist.
+> Note: The executable will only be able to be used for your specific operating system
+> For example: If you compiled it on a Windows machine, it will only run on other Windows machines.
 
 
 ```
