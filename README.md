@@ -76,11 +76,11 @@ cython main.py --embed
 ### 4: Compile
 ```
 PYTHONLIBVER=python$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')$(python3-config --abiflags)
-gcc -Os $(python3-config --includes) main.c -o output_bin_file $(python3-config --ldflags) -l$PYTHONLIBVER
+gcc -Os $(python3-config --includes) main.c -o main $(python3-config --ldflags) -l$PYTHONLIBVER
 ```
-> The program will now compile into a folder name dist.
-> Note: The executable will only be able to be used for your specific operating system
-> For example: If you compiled it on a Windows machine, it will only run on other Windows machines.
+> The program will now compile into a executable named main
+> Note: The executable will only be able to be used for your specific operating system and architecture
+> For example: If you compiled it on a x86_64 Windows machine, it will only run on other x86_64 Windows machines.
 
 
 ```
