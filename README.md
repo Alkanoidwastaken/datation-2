@@ -61,8 +61,8 @@ python compile.py
 python3 compile.py
 ```
 > The program will now compile into a folder name dist.
-> Note: The executable will only be able to be used for your specific operating system and architecture
-> For example: If you compiled it on a x86_64 Windows machine, it will only run on other x86_64 Windows machines.
+> Note: The executable will only be able to be used for your specific operating system
+> For example: If you compiled it on a Windows machine, it will only run on other Windows machines.
 
 
 ```
