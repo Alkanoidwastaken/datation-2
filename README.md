@@ -51,14 +51,32 @@ python3 main.py
 > This is the program. You can compile it using the steps below.
 
 ## Manual Compilation
-### Run compile.py
+### 1: Run setup.py
 ##### Windows:
 ```
-python compile.py
+python setup.py
 ```
 ##### UNIX (Mac/Linux):
 ```
-python3 compile.py
+python3 setup.py
+```
+### 2: Install cpython
+#### Windows:
+```
+pip install cython
+```
+#### UNIX (Mac/Linux):
+```
+pip3 install cython
+```
+### 3: Convert to C File
+```
+cython main.py --embed
+```
+### 4: Compile
+```
+PYTHONLIBVER=python$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')$(python3-config --abiflags)
+gcc -Os $(python3-config --includes) example_file.c -o output_bin_file $(python3-config --ldflags) -l$PYTHONLIBVER
 ```
 > The program will now compile into a folder name dist.
 > Note: The executable will only be able to be used for your specific operating system
