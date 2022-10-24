@@ -12,7 +12,7 @@ Prebuilt binaries are available:
 
 [![Universal Installer][universal-badge]][universal-link]
 
-[universal-link]: https://github.com/Alkanoidwastaken/datation-2/
+[universal-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0.1/main
 [universal-badge]: https://img.shields.io/badge/Universal%20-Download-3a71c1?logo=Python&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
 
 
