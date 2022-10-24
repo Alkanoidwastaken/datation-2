@@ -13,9 +13,9 @@ Prebuilt binaries are available:
 [![Windows Installer][windows-badge]][windows-link] [![Mac Installer][mac-badge]][mac-link]
 
 [windows-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0.0/windows-x86_64.exe
-[windows-badge]: https://img.shields.io/badge/Windows%20(7+)-Download-3a71c1?logo=Windows&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
+[windows-badge]: https://img.shields.io/badge/Windows%20-Download-3a71c1?logo=Windows&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
 [mac-link]: https://github.com/Alkanoidwastaken/datation-2/releases/download/v2.0.0/macos-arm
-[mac-badge]: https://img.shields.io/badge/macOS%20(Apple%20Silicon)%20-Download-3a71c1?logo=Apple&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
+[mac-badge]: https://img.shields.io/badge/macOS%20%20-Download-3a71c1?logo=Apple&logoColor=3a71c1&labelColor=0c0d10&color=3a71c1&style=for-the-badge
 
 
 ## Manual Usage
