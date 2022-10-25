@@ -24,7 +24,6 @@ If you want to develop this program, follow the instructions below.
 ### Prerequisites
 - [Git](https://git-scm.com)
 - [Python](https://www.python.org)
-- [GCC](https://gcc.gnu.org)
 - Access to the command line
 
 ### 1: Clone the repository
@@ -52,42 +51,18 @@ python3 main.py
 > This is the program. You can compile it using the steps below.
 
 ## Manual Compilation
-### 1: Run setup.py
+### Run compile.py
 ##### Windows:
 ```
-python setup.py
+python compile.py
 ```
 ##### UNIX (Mac/Linux):
 ```
-python3 setup.py
+python3 compile.py
 ```
-### 2: Install cpython
-#### Windows:
-```
-pip install cython
-```
-#### UNIX (Mac/Linux):
-```
-pip3 install cython
-```
-### 3: Convert to C File
-```
-cython main.py --embed
-```
-### 4: Compile
-#### Windows:
-```
-gcc -Os $(python3-config --includes) main.c -o main $(python3-config --ldflags) -l3.10
-```
-#### UNIX (Mac/Linux):
-```
-PYTHONLIBVER=python$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')$(python3-config --abiflags)
-gcc -Os $(python3-config --includes) main.c -o main $(python3-config --ldflags) -l$PYTHONLIBVER
-```
-
-> The program will now compile into a executable named main
-> Note: The executable will only be able to be used for your specific operating system and architecture
-> For example: If you compiled it on a x86_64 Windows machine, it will only run on other x86_64 Windows machines.
+> The program will now compile into a folder name dist.
+> Note: The executable will only be able to be used for your specific operating system
+> For example: If you compiled it on a Windows machine, it will only run on other Windows machines.
 
 
 ```
